@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let isEnvelopeOpen = false;
 
     // Current datetime - Updated to: 2025-03-07 14:41:49
-    const currentDate = new Date('2025-03-07 14:41:49');
+    const currentDate = new Date('2025-10-20 14:41:49');
     document.getElementById('currentDate').textContent = 
         `Ngày ${currentDate.getDate()} tháng ${currentDate.getMonth() + 1} năm ${currentDate.getFullYear()}`;
 
@@ -318,3 +318,4 @@ document.addEventListener('DOMContentLoaded', () => {
     modalSound.load();
 
 });
+
